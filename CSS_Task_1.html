@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Task 1</title>
+    <style>
+        #i1{
+    color: black;
+    border : 2px solid black;
+    border-radius: 20px;
+}
+table,th,td{
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+         
+        div.square1{
+            border: 3px solid rgb(127, 203, 13);
+            border-radius: 13px;
+            height: 45px; 
+            width: 70px; 
+        }
+        div.rect{
+            border: 3px solid rgb(127, 203, 13);
+            height: 45px; 
+            width: 70px; 
+        }
+        div.x{
+            border: 3px solid rgb(127, 203, 13);
+            height: 50px; 
+            border-radius: 5px;
+            border-top-right-radius: 15px;
+            border-bottom-left-radius: 20px;
+            width: 70px; 
+        }
+        div.circle{
+            height: 50px;
+            width: 75px;
+            border: 3px solid rgb(127, 203, 13);            
+            border-radius: 50% 
+        }
+        div{
+            margin-top: 5px;
+            margin-bottom:10px;
+            margin-right: 10px;
+        }
+        div.square{
+            border: 3px solid rgb(127, 203, 13);
+            border-radius: 6px;
+            height: 45px; 
+            width: 70px; 
+        }
+        .main {
+            display: flex;
+            margin-left: 150px;
+        }
+    </style>
+    
+   
+</head>
+<body>
+    <table id = "i1" border="1" height="100" width="1000" bgcolor="#81D8D0" cellpadding="1" cellspacing="1">
+        <tr>
+            <th id = "i1" bgcolor="#81D8D0" style="width:40%" ><b>Firstname</b></th>
+            <th id = "i1" bgcolor="#81D8D0" style="width:40%"  ><b>Lastname</b></th>
+            <th id = "i1" bgcolor="#81D8D0"><b>Age</b></td>
+        </tr>
+        <tr>
+            <td id = "i1"bgcolor="#81D8D0">Jill</td>
+            <td id = "i1" bgcolor="#81D8D0">Smith</td>
+            <td id = "i1" bgcolor="#81D8D0">50</td>
+        </tr>
+        <tr>
+            <td id = "i1" bgcolor="#81D8D0">Eve</td>
+            <td id = "i1" bgcolor="#81D8D0">Jackson</td>
+            <td id = "i1" bgcolor="#81D8D0">94</td>
+        </tr>
+        <tr>
+            <td id = "i1" bgcolor="#81D8D0">John</td>
+            <td id = "i1" bgcolor="#81D8D0">Deo</td>
+            <td id = "i1"bgcolor="#78C7C7">80</td>
+        </tr>
+    </table>
+    <div class="main">
+        <div>
+        <div class="square" ></div>
+        <div class="square"></div>
+        <div class="circle"></div>
+        </div>
+        <div>
+            <div class="square" ></div>
+            <div class="rect"></div>
+            <div class="rect"></div>
+        </div>
+        <div>
+            <div class="square1" ></div>
+            <div class="square1"></div>
+            <div class="x"></div>
+        </div>
+    </div>
+</body>
+</html>
